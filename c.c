@@ -9,7 +9,7 @@ int main() {
     setlocale(LC_ALL, ".UTF8");
     double x, y;
 
-    printf("Введите координаты точки x и y через пробел:\n");
+    printf("Введите координаты точки x и y через пробел\n");
     scanf("%lf %lf", &x, &y);
 
     if ((x >= -5 && x <= -1 && y >= -5 && y <= -2) ||
